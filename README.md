@@ -91,7 +91,7 @@ Don't remove the ```<link>``` to the external style sheet, but add your internal
 
 Check some of your other HTML pages to confirm they haven't changed: you've only overridden the style of ```tim_berners_lee.html``` by adding an internal style sheet to it; you've not changed the external style sheet that they all used.
 
-Comparing ```im_berners_lee.html``` to one of the HTML pages shows you that despite the changes to the first, they still have something that makes them come across as consistent. It's because all the other styling that they share hasn't changed.
+Comparing ```tim_berners_lee.html``` to one of the HTML pages shows you that despite the changes to the first, they still have something that makes them come across as consistent. It's because all the other styling that they share hasn't changed.
 
 
 Exercise Six
