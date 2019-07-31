@@ -125,7 +125,7 @@ Babbage's *Difference Engine* is so important that we'd like to grab extra atten
 Exercise Eight
 ----------
 
-Make a copy of the files in the ```ictgradschool/web/lab03/ex07``` folder and place them in the ```ictgradschool/web/lab03/ex08``` folder. You may need to create this folder yourself. Close all open editor tabs, then when opening files to edit, open them from the ex08 folder.
+Make a copy of the files in the ```ictgradschool/web/lab03/ex07``` folder and place them in the ```ictgradschool/web/lab03/ex08``` folder. You may need to create this folder yourself. Close all open editor tabs, then when opening files to edit, open them from the ex08 folder. Delete the inline style from the previous exercise so that it does not override the style in your stylesheet.
  
 Since it's good practise to keep the CSS separate from HTML, we can achieve the same thing we did in exercise seven by assigning an id to the h3 heading on difference engine, and then adding the style rule for just this h3 element identified by its id. Call the id "big-achievement" to indicate what he's known for.
 
@@ -136,6 +136,8 @@ At present, this style won't affect any other pages even though you've added it 
 Remember, each id must be used *only once* per HTML page. But you can use it once on *each* page. So although you're not allowed to use the same id twice on the ```charles_babbage.html``` page, it is perfectly acceptable to add the same id once to the ```tim_berners_lee.html``` page, for example.
 
 Add the same id to ```grace_hopper.html```'s "COBOL" h3 heading element. If you preview both pages, the relevant headings should now appear in red.
+
+
 
 
 Exercise Nine
