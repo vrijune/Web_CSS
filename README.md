@@ -182,3 +182,5 @@ In the previous exercise, Google did the work for you by setting up the necessar
 3. Open ```sonnets.html```. In the internal style sheet section, create a ```@font-face``` declaration for this font. Make sure to refer to the font-file using the name it is stored as in your fonts folder. Make the path to the font file relative to the web page (it should look like ```fonts/AlexBrush_regular.ttf```).  The filename extension ".ttf" refers to the fact that this font is specified using the True Type Font format, a format originally developed by Apple and now in wide use across all the main operating system platforms.
 4. Next, add the selected font to the front of the font stack used to display the sonnets.
 Preview the web page. (You may choose to re-adjust the font size to make it larger or smaller, depending on the font you chose.
+
+Note: remember to check what other CSS selectors already modify fonts on the page. You may need to overwrite previous CSS settings.
