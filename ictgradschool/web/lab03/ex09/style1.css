@@ -1,0 +1,30 @@
+/* 
+	The pre-defined colour names are from http://www.w3schools.com/cssref/css_colornames.asp  
+	The fonts are selected from http://www.w3schools.com/cssref/css_websafe_fonts.asp 
+*/
+
+/* Leave a lot of space on the left side and just a little margin on the right. */
+body {
+	margin-left: 20%;
+	margin-right: 2%;
+}
+
+/* Headings are in small-caps and in white on a silver colour background that is 50px high */
+/* 
+	It's good to use sans-serif fonts for headings and serif fonts for text.
+	Arial is the sans-serif font that seems to be used by default for headings.
+	Times New Roman is a common serif font used for the text.  
+*/
+h1, h2, h3 {	
+	font-variant: small-caps;
+	background-color: silver;
+	color: white;
+	height: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* The main text is justified to make it look tidy, rather than being left aligned. */
+p {
+	text-align: justify;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;		
+}

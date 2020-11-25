@@ -1,0 +1,27 @@
+h1,h2,h3,b,strong {color: plum}
+
+h1{text-transform: uppercase;}
+
+h1,h3 {
+    text-align: center;
+}
+
+h2 {
+    text-align: right;
+    border-bottom: 1pt solid LightSlateGray;
+}
+
+hr {
+    color: lightslategray;
+    border-top: 1pt dotted LightSlateGray;
+    width: 50%;
+}
+
+body{
+    color: darkslategray;
+    font-family: "Georgia",serif;
+    text-align: justify;
+    font-style: italic;
+    padding: 50px 20%;
+    
+}

@@ -1,0 +1,38 @@
+/* This is a CSS-style comment */
+/* The pre-defined colour names are from http://www.w3schools.com/cssref/css_colornames.asp */ 
+body {
+	background-color: darksalmon;
+	color: Navy;
+	text-align: justify;
+}
+
+p {
+	padding-left: 20%;
+	padding-right: 20%;	
+	line-height: 1.5em;
+	font-size: 125%;
+}
+
+h1, h2, h3 { 
+	text-align: center;
+	color: OrangeRed;
+	font-style: italic;
+}
+
+hr {border: red dashed 2px;}
+
+
+/* strong and em define no particular formatting. They merely indicate that the embedded content should be emphasised. */
+
+b, strong { font-weight: bold; } /* bold tends to be the default for "strong", but it's good to set this explicitly */
+
+/* 
+	The default for em tends to be italics, but it's good to be explicit.
+	Our em is going to be both italic and bold.
+ */
+i, em { 
+	font-style: italic; 
+	font-weight: bold; 
+}
+
+i, b, em, strong { color: red; }
