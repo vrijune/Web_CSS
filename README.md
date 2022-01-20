@@ -1,11 +1,4 @@
 Web Lab 03 &ndash; CSS I
-==========
-
-Begin by forking this repository into your namespace by clicking the ```fork``` button above, then selecting your username from the resulting window. Once completed, click the ```clone``` button, copy the ```Clone with HTTPS``` value. Open IntelliJ, and from the welcome screen click ```Check out from Version Control -> Git```, then paste the copied URL into the ```URL``` field of the resulting window. Provide your GitLab username and password if prompted.
-
-Explore the files in the project, familiarizing yourself with the content.
-
-When complete, demonstrate your code to your tutor. This must be verified with your tutor by the end of the week.
 
 
 Exercise One
